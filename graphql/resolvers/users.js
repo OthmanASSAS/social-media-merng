@@ -5,7 +5,7 @@ const { UserInputError } = require('apollo-server');
 const {
   validateRegisterInput,
   validateLoginInput,
-} = require('../utils/validators');
+} = require('../../utils/validators');
 const { SECRET_KEY } = require('../../config');
 const User = require('../../models/User');
 
